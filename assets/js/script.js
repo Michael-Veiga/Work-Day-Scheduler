@@ -4,28 +4,28 @@ console.log(dateTime);
 // make sure that it updates depending on the day
 $("#currentDay").append(dateTime);
 
-var timeEl = ["9", "10", "11", "12", "13", "14", "15", "16", "17"]
+var timeEl = [9, 10, 11, 12, 13, 14, 15, 16, 17]
 updateTime();
 // Each block of scheduler is color coded by time of day
 function updateTime() {
     var currentTime = moment().format("H");
     for (var i = 0; i < timeEl.length; i++) {
-
-        if (parseInt(timeEl[i] > currentTime)) {
-            $("#" + timeEl[i].attr("style", "background-color: #58ce7b"));
+        console.log($("#" + timeEl[i]));
+        if (timeEl[i] > parseInt(currentTime)) {
+            $("#" + timeEl[i]).attr("style", "background-color: #98FB98");
         }
-        else if (parseInt(timeEl[i] < currentTime)) {
-            $("#" + timeEl[i].attr("style", "background-color: red"));
+        else if (timeEl[i] < parseInt(currentTime)) {
+            $("#" + timeEl[i]).attr("style", "background-color: IndianRed");
         }
-        else if (parseInt(timeEl[i] == currentTime)) {
-            $("#" + timeEl[i].attr("style", "background-color: lightgray"));
+        else if (timeEl[i] == parseInt(currentTime)) {
+            $("#" + timeEl[i]).attr("style", "background-color: lightgray");
         }
     }
 }
 // When you save the event, then the text is saved to local storage
 $(".btn").on("click", function () {
     var timeEl = $(this).parent().attr("id");
-    var textEl = $("input").val().trim();
+    var textEl = $(this).siblings("input").val().trim();
     // When refreshing the page, time saved events are still there
     localStorage.setItem(timeEl, textEl);
     console.log(timeEl, textEl);

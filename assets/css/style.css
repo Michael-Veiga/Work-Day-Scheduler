@@ -22,6 +22,8 @@ body {
 #time {
   padding: 25px;
   text-align: center;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .btn {
