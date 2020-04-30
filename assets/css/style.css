@@ -19,22 +19,16 @@ body {
   border-top: 1px solid white;
 }
 
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-
 #time {
   padding: 25px;
   text-align: center;
 }
 
-.rowBtn {
+.btn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: rgb(255, 36, 36);
   color: white;
 }
 
