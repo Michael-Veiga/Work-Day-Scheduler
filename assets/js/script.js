@@ -1,10 +1,27 @@
 // ** Layout and concepts referenced from the following source https://github.com/cmelby/DayPlanner/blob/master/script.js **
 // Display the date and time using moment.
-// Create a variable to house the current date and year / possibly time.
-var dateTime = moment().format("MMM Do YYYY");
+// Dyanmic timer help from the following source https://stackoverflow.com/questions/34625764/moment-js-dynamically-update-time-in-seconds
+
+// Create empty variables to house the current date and year / possibly time.
+var dateTime = null;
+var currentDate = null;
 console.log(dateTime);
-// Update the currentDay using the dateTime variable.
-$("#currentDay").append(dateTime);
+// create a function that will dynamically update the time by the second
+var update = function () {
+    // moment(new Date()) directly pulled from stackoverflow, does not match any concept on moment.js
+    currentDate = moment(new Date())
+    // set dateTime html to moment.js time format 
+    dateTime.html(currentDate.format('MMMM Do YYYY, h:mm:ss a'));
+};
+// dont run until javascript loads
+$(document).ready(function () {
+    // set dateTime equal to currentDay id
+    dateTime = $("#currentDay")
+    // call update function
+    update();
+    // set interval to update every 1000 miliseconds
+    setInterval(update, 1000);
+});
 
 // Create an array of times. Must use military time so that if else statements will work.
 var timeEl = [9, 10, 11, 12, 13, 14, 15, 16, 17]
