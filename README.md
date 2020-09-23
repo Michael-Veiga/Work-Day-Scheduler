@@ -1,7 +1,7 @@
 # Work-Day-Scheduler
 
 ## Purpose
-The purpose of this appliciation was to make an application that allows the user to save an event for each hour of the day. The app will also color code each time block to indicate if the current time is greater than, less than or equal to the current time.
+The purpose of this application is to allow the users to save an event for each hour of the day. The app will also color code each time block to indicate if the current time is greater than, less than or equal to the current time.
 Finally, the app will store any inputs to local storage if the save button is clicked.
 The app runs in the browser and and uses dynamically updated HTML and CSS powered by jQuery. 
 
