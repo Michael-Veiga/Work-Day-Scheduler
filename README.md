@@ -29,4 +29,4 @@ THEN the saved events persist
 This assignment was relatively straight forward, however the syntax of the if statements and storage input events we're quite challenging at times. My tutor was instrumental in helping me to understand how to use the parent and sibling attributes effectively, as well as the appropriate usage for parseInt. I referenced the layout of another day-planner's script.js which was extremely helpful, however it had many problems of its own. This is honestly the first homework where i've fully comprehended the efficiency of dry code over wet code. 
 
 ## Image of application 
-![Image of work-day-scheduler](/assets/images/work-day-schedule-pic.jpg); 
+![Image of work-day-scheduler](https://github.com/Michael-Veiga/Work-Day-Scheduler/blob/master/assets/images/work-day-schedule-pic.JPG?raw=true); 
