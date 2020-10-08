@@ -16,86 +16,88 @@
 <body>
 
   <!-- Displays Work Time -->
-  <header class="jumbotron card card-image"
+  <header class="jumbotron card card-image mb-0"
     style="background-image: url(https://images.pexels.com/photos/1493226/pexels-photo-1493226.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); background-repeat: no-repeat; background-size: cover;">
-    <div class="text-white text-center py-5 px-4">
+    <div class="text-white text-center pb-1 px-4">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </div>
   </header>
-  <div class="container mb-5">
-    <!-- Timeblocks go here for each hour of the day from 9 to 5-->
-    <!-- 9AM Block -->
-    <div class="card shadow-sm mb-2">
-      <div class="row justify-content" id="9AM">
-        <p id="time" class="text-body col-1">9am</p>
-        <input type="text" id="9" class="col-10">
-        <button class="btn btn-danger col-1">Save</button>
+  <div class="wrapper">
+    <div class="container mb-5">
+      <!-- Timeblocks go here for each hour of the day from 9 to 5-->
+      <!-- 9AM Block -->
+      <div class="card shadow-sm mb-2">
+        <div class="row justify-content-center" id="9AM">
+          <p id="time" class="text-body col-1">9am</p>
+          <input type="text" id="9" class="col-10">
+          <button class="btn btn-danger col-1">Save</button>
+        </div>
       </div>
-    </div>
-    <!-- 10AM Block -->
-    <div class="card shadow-sm mb-2">
-      <div class="row justify-content" id="10AM">
-        <p id="time" class="text-body col-1">10am</p>
-        <input type="text" id="10" class="col-10">
-        <button class="btn btn-danger col-1">Save</button>
+      <!-- 10AM Block -->
+      <div class="card shadow-sm mb-2">
+        <div class="row justify-content" id="10AM">
+          <p id="time" class="text-body col-1">10am</p>
+          <input type="text" id="10" class="col-10">
+          <button class="btn btn-danger col-1">Save</button>
+        </div>
       </div>
-    </div>
-    <!-- 11AM Block -->
-    <div class="card shadow-sm mb-2">
-      <div class="row justify-content" id="11AM">
-        <p id="time" class="text-body col-1">11am</p>
-        <input type="text" id="11" class="col-10">
-        <button class="btn btn-danger col-1">Save</button>
+      <!-- 11AM Block -->
+      <div class="card shadow-sm mb-2">
+        <div class="row justify-content" id="11AM">
+          <p id="time" class="text-body col-1">11am</p>
+          <input type="text" id="11" class="col-10">
+          <button class="btn btn-danger col-1">Save</button>
+        </div>
       </div>
-    </div>
-    <!-- 12PM Block -->
-    <div class="card shadow-sm mb-2">
-      <div class="row justify-content" id="12PM">
-        <p id="time" class="text-body col-1">12pm</p>
-        <input type="text" id="12" class="col-10">
-        <button class="btn btn-danger col-1">Save</button>
+      <!-- 12PM Block -->
+      <div class="card shadow-sm mb-2">
+        <div class="row justify-content" id="12PM">
+          <p id="time" class="text-body col-1">12pm</p>
+          <input type="text" id="12" class="col-10">
+          <button class="btn btn-danger col-1">Save</button>
+        </div>
       </div>
-    </div>
-    <!-- 1PM Block -->
-    <div class="card shadow-sm mb-2">
-      <div class="row justify-content" id="1PM">
-        <p id="time" class="text-body col-1">1pm</p>
-        <input type="text" id="13" class="col-10">
-        <button class="btn btn-danger col-1">Save</button>
+      <!-- 1PM Block -->
+      <div class="card shadow-sm mb-2">
+        <div class="row justify-content" id="1PM">
+          <p id="time" class="text-body col-1">1pm</p>
+          <input type="text" id="13" class="col-10">
+          <button class="btn btn-danger col-1">Save</button>
+        </div>
       </div>
-    </div>
-    <!-- 2PM Block -->
-    <div class="card shadow-sm mb-2">
-      <div class="row justify-content" id="2PM">
-        <p id="time" class="text-body col-1">2pm</p>
-        <input type="text" id="14" class="col-10">
-        <button class="btn btn-danger col-1">Save</button>
+      <!-- 2PM Block -->
+      <div class="card shadow-sm mb-2">
+        <div class="row justify-content" id="2PM">
+          <p id="time" class="text-body col-1">2pm</p>
+          <input type="text" id="14" class="col-10">
+          <button class="btn btn-danger col-1">Save</button>
+        </div>
       </div>
-    </div>
-    <!-- 3PM Block -->
-    <div class="card shadow-sm mb-2">
-      <div class="row justify-content" id="3PM">
-        <p id="time" class="text-body col-1">3pm</p>
-        <input type="text" id="15" class="col-10">
-        <button class="btn btn-danger col-1">Save</button>
+      <!-- 3PM Block -->
+      <div class="card shadow-sm mb-2">
+        <div class="row justify-content" id="3PM">
+          <p id="time" class="text-body col-1">3pm</p>
+          <input type="text" id="15" class="col-10">
+          <button class="btn btn-danger col-1">Save</button>
+        </div>
       </div>
-    </div>
-    <!-- 4PM Block -->
-    <div class="card shadow-sm mb-2">
-      <div class="row justify-content" id="4PM">
-        <p id="time" class="text-body col-1">4pm</p>
-        <input type="text" id="16" class="col-10">
-        <button class="btn btn-danger col-1">Save</button>
+      <!-- 4PM Block -->
+      <div class="card shadow-sm mb-2">
+        <div class="row justify-content" id="4PM">
+          <p id="time" class="text-body col-1">4pm</p>
+          <input type="text" id="16" class="col-10">
+          <button class="btn btn-danger col-1">Save</button>
+        </div>
       </div>
-    </div>
-    <!-- 5PM Block -->
-    <div class="card shadow-sm mb-2">
-      <div class="row justify-content" id="9AM">
-        <p id="time" class="text-body col-1">5pm</p>
-        <input type="text" id="17" class="col-10">
-        <button class="btn btn-danger col-1">Save</button>
+      <!-- 5PM Block -->
+      <div class="card shadow-sm mb-2">
+        <div class="row justify-content" id="9AM">
+          <p id="time" class="text-body col-1">5pm</p>
+          <input type="text" id="17" class="col-10">
+          <button class="btn btn-danger col-1">Save</button>
+        </div>
       </div>
     </div>
   </div>
