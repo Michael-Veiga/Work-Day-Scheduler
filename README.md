@@ -1,5 +1,8 @@
 # Work-Day-Scheduler
 
+## Link to Deployed Application
+https://michael-veiga.github.io/Work-Day-Scheduler/
+
 ## Purpose
 The purpose of this application is to allow the users to save an event for each hour of the day. The app will also color code each time block to indicate if the current time is greater than, less than or equal to the current time.
 Finally, the app will store any inputs to local storage if the save button is clicked.
