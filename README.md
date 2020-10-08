@@ -10,12 +10,19 @@ The purpose of this application is to allow the users to save an event for each 
 Finally, the app will store any inputs to local storage if the save button is clicked.
 The app runs in the browser and and uses dynamically updated HTML and CSS powered by jQuery. 
 
-## User Story
+## Table of Contents
+- [User Story](#User-Story)
+- [Acceptance Criteria](#Acceptance-Criteria)
+- [Summary](#Summary)
+- [Example Image](#Example-Image)
+
+
+## User-Story
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
-## Acceptance Criteria
+## Acceptance-Criteria
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -33,5 +40,5 @@ THEN the saved events persist
 ## Summary 
 This assignment was relatively straight forward, however the syntax of the if statements and storage input events we're quite challenging at times. My tutor was instrumental in helping me to understand how to use the parent and sibling attributes effectively, as well as the appropriate usage for parseInt. I referenced the layout of another day-planner's script.js which was extremely helpful, however it had many problems of its own. This is honestly the first homework where i've fully comprehended the efficiency of dry code over wet code. 
 
-## Image of application 
+## Example-Image 
 ![Image of work-day-scheduler](https://github.com/Michael-Veiga/Work-Day-Scheduler/blob/master/assets/images/work-day-schedule-pic.JPG?raw=true); 
