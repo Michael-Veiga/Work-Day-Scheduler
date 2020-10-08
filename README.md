@@ -14,7 +14,7 @@ The app runs in the browser and and uses dynamically updated HTML and CSS powere
 - [User Story](#User-Story)
 - [Acceptance Criteria](#Acceptance-Criteria)
 - [Summary](#Summary)
-- [Example Image](#Example-Image)
+- [Example Gif](#Example-Gif)
 
 
 ## User-Story
@@ -40,5 +40,5 @@ THEN the saved events persist
 ## Summary 
 This assignment was relatively straight forward, however the syntax of the if statements and storage input events we're quite challenging at times. My tutor was instrumental in helping me to understand how to use the parent and sibling attributes effectively, as well as the appropriate usage for parseInt. I referenced the layout of another day-planner's script.js which was extremely helpful, however it had many problems of its own. This is honestly the first homework where i've fully comprehended the efficiency of dry code over wet code. 
 
-## Example-Image 
-![Image of work-day-scheduler](https://github.com/Michael-Veiga/Work-Day-Scheduler/blob/master/assets/images/work-day-schedule-pic.JPG?raw=true); 
+## Example-Gif
+![Gif of work-day-scheduler](https://media.giphy.com/media/JSMaGBI1AAKeTxpJyf/giphy.gif); 
