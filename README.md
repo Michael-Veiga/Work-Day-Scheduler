@@ -1,5 +1,7 @@
 # Work-Day-Scheduler
 
+![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)
+
 ## Link to Deployed Application
 <a href="https://michael-veiga.github.io/Work-Day-Scheduler/" target="blank">Workday Scheduler</a>
 
